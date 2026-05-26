@@ -19,5 +19,7 @@ header {
 }
 
 .menu-items li {
+    text-decoration: none;
+    color: #cccccc;
     margin-right: 20px;
 }
