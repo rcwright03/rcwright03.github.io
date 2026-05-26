@@ -12,9 +12,12 @@ header {
     font-size: 16px;
 }
 
-.menu-items ul, .menu-items li {
+.menu-items ul{
     display: flex;
     list-style-type: none;
     padding: 0;
+}
+
+.menu-items li {
     margin-right: 20px;
 }
