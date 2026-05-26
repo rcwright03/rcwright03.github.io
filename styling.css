@@ -19,7 +19,10 @@ header {
 }
 
 .menu-items li {
+    margin-right: 20px;
+}
+
+.menu-items {
     text-decoration: none;
     color: #cccccc;
-    margin-right: 20px;
 }
