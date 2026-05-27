@@ -74,9 +74,8 @@ header {
 }
 
 .tabcontent {
-    display: block;
     width: 60%;
-    aspect-ratio: 4-3;
+    aspect-ratio: 4 / 3;
     background-color: #b3b3b3;
     flex-shrink: 0;
 }

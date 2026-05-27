@@ -12,3 +12,7 @@ function openTab(evt, tab_name) {
 
     console.log("test")
 }
+
+window.onload = function () {
+    document.getElementById("defaultTab").click()
+}
