@@ -48,7 +48,7 @@ header {
 }
 
 .group-div.reverse {
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
 }
 
 .box-div {
@@ -61,4 +61,8 @@ header {
     width: 400px;
     height: 400px;
     background-color: #b3b3b3;
+}
+
+.vertical-paragraphs {
+    display: block;
 }
