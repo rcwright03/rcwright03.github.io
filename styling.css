@@ -44,7 +44,7 @@ header {
     align-items: center;
     gap: 20px;
     justify-content: space-between;
-    width: 60%;
+    width: 90%;
 }
 
 .group-div.reverse {
@@ -52,14 +52,14 @@ header {
 }
 
 .box-div {
-    width: 400px;
-    height: 400px;
+    width: 50%;
+    height: 50%;
     background-color: #b3b3b3;
 }
 
 .photo-div {
-    width: 400px;
-    height: 400px;
+    width: 50%;
+    height: 50%;
     background-color: #b3b3b3;
 }
 
