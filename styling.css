@@ -55,12 +55,14 @@ header {
     width: 50%;
     height: 50%;
     background-color: #b3b3b3;
+    flex-shrink: 0;
 }
 
 .photo-div {
     width: 50%;
     height: 50%;
     background-color: #b3b3b3;
+    flex-shrink: 0;
 }
 
 .vertical-paragraphs {
