@@ -2,7 +2,7 @@ function openTab(evt, tab_name) {
     var i, tab_content, tab_buttons;
 
     // hide content in other tabs
-    tab_content = document.getElementsByClassName("tab-content");
+    tab_content = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tab_content.length; i++) {
         tab_content[i].style.display = "none";
     }

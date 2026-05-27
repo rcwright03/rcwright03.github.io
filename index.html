@@ -86,12 +86,16 @@
         SS Test
       </div>
     </h1>
-    <li>First item
-      <h1>First Button</h1>
-      <button onclick="resizeBy(20, 20)">Resize</button>
-    </li>
     <h1 id="interests">Interests
-      <ul></ul>
+      <!--List interests (music, art, video games, etc.) in boxes with text next to them-->
+      <ul>
+        <li>
+          <div style="display: flex; align-items: center; gap: 20px;">
+            <div style="width: 100px; height: 100px; background-color: #b3b3b3;"></div>
+            <p>This text should appear right of the block</p>
+          </div>
+        </li>
+      </ul>
     </h1>
     <li>Second item
       <h1>Second Button</h1>
