@@ -32,6 +32,11 @@ header {
     padding: 0;
 }
 
+.interests-items p{
+    display: flex;
+    font-size: 16 px;
+}
+
 .group-div {
     display: flex;
     align-items: center;
@@ -39,7 +44,7 @@ header {
 }
 
 .box-div {
-    width: 100px;
-    height: 100px;
+    width: 600px;
+    height: 600px;
     background-color: #b3b3b3;
 }
