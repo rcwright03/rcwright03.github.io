@@ -2,9 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="styling.css">
-    <script src = "script.js" defer>
-      document.getElementById("default_tab").click()
-    </script>
+    <script src = "script.js" defer></script>
   </head>
   <body>
     <header>
@@ -85,6 +83,7 @@
         <button class="tablinks" id="default_tab" onclick="openTab(event, 'DSTab')">Data Science</button>
         <button class="tablinks" onclick="openTab(event, 'CSTab')">Computer Science</button>
         <button class="tablinks" onclick="openTab(event, 'SSTab')">Social Science</button>
+        <script>document.getElementById("default_tab").click()</script>
       </div>
       <div id="DSTab" class="tabcontent">
         <!--put different projects in here-->
