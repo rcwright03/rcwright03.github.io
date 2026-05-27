@@ -43,10 +43,12 @@ header {
     display: flex;
     align-items: center;
     gap: 3vw;
-    justify-content: space-between;
     width: 90%;
     margin: 5vh auto;
+    /*
+    justify-content: center
     padding: 0 5%
+    */
 }
 
 .group-div.reverse {
