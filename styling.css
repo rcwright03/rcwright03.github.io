@@ -6,6 +6,9 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0;
+    z-index: 1000x;
     background-color: #1a1a1a;
     font-family:'Courier New', Courier, monospace;
     color: #cccccc;
@@ -33,17 +36,29 @@ header {
 }
 
 .interests-items p{
-    font-size: 16 px;
+    font-size: 16px;
 }
 
 .group-div {
     display: flex;
     align-items: center;
     gap: 20px;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.group-div.reverse {
+    flex-direction: row-reverse;
 }
 
 .box-div {
     width: 600px;
     height: 600px;
+    background-color: #b3b3b3;
+}
+
+.photo-div {
+    width: 400px;
+    height: 400px;
     background-color: #b3b3b3;
 }
