@@ -2,7 +2,7 @@ body {
     background-color: #474747;
     font-family:'Courier New', Courier, monospace;
     color: #cccccc;
-    font-size: 24px;
+    font-size: clamp(24px, 3vw, 48px);
 }
 
 header {
@@ -12,7 +12,7 @@ header {
     background-color: #1a1a1a;
     font-family:'Courier New', Courier, monospace;
     color: #cccccc;
-    font-size: 16px;
+    font-size: clamp(16px, 2vw, 36px);
 }
 
 .menu-items ul{
@@ -22,7 +22,7 @@ header {
 }
 
 .menu-items li {
-    margin-right: 20px;
+    margin-right: 5%
 }
 
 .menu-items {
@@ -36,15 +36,17 @@ header {
 }
 
 .interests-items p{
-    font-size: 16px;
+    font-size: clamp(16px, 2vw, 36px);
 }
 
 .group-div {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 3vw;
     justify-content: space-between;
     width: 90%;
+    margin: 5vh auto;
+    padding: 0 5%
 }
 
 .group-div.reverse {
@@ -52,15 +54,15 @@ header {
 }
 
 .box-div {
-    width: 50%;
-    height: 50%;
+    width: 45%;
+    aspect-ratio: 1 / 1;
     background-color: #b3b3b3;
     flex-shrink: 0;
 }
 
 .photo-div {
-    width: 50%;
-    height: 50%;
+    width: 45%;
+    aspect-ratio: 1 / 1;
     background-color: #b3b3b3;
     flex-shrink: 0;
 }
