@@ -9,4 +9,6 @@ function openTab(evt, tab_name) {
 
     // display element that was clicked on
     document.getElementById(tab_name).style.display = "block";
+
+    console.log("test")
 }
