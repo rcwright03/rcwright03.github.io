@@ -2,7 +2,9 @@
 <html>
   <head>
     <link rel="stylesheet" href="styling.css">
-    <script src = "script.js" defer></script>
+    <script src = "script.js" defer>
+      document.getElementById("default_tab").click()
+    </script>
   </head>
   <body>
     <header>
@@ -80,7 +82,7 @@
     </ul>
     <h1 id="projects_and_experience" style="text-align: center">Projects and Experience
       <div class="tab">
-        <button class="tablinks" onclick="openTab(event, 'DSTab')">Data Science</button>
+        <button class="tablinks" id="default_tab" onclick="openTab(event, 'DSTab')">Data Science</button>
         <button class="tablinks" onclick="openTab(event, 'CSTab')">Computer Science</button>
         <button class="tablinks" onclick="openTab(event, 'SSTab')">Social Science</button>
       </div>
