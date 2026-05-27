@@ -48,7 +48,7 @@ header {
 }
 
 .group-div.reverse {
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
 }
 
 .box-div {
