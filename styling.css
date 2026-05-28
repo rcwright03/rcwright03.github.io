@@ -17,17 +17,26 @@ header {
 
 .menu-items ul{
     display: flex;
+    justify-content: space-evenly;
     list-style-type: none;
-    padding: 0;
+    /* padding-left: 10%;
+    padding-right: 10%; */
 }
 
 .menu-items li {
-    margin-right: 5%
+    margin-right: 5%;
+    text-align: center;
 }
 
-.menu-items {
+.menu-items a{
     text-decoration: none;
     color: #cccccc;
+}
+
+.menu-items a:hover{
+    background-color: lime;
+    color:#1a1a1a;
+    cursor: pointer;
 }
 
 .interests-items ul{
