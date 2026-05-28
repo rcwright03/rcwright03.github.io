@@ -14,5 +14,5 @@ function openTab(evt, tab_name) {
 }
 
 window.onload = function () {
-    document.getElementById("defaultTab").click()
+    document.getElementById("default_tab").click()
 }

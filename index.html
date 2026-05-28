@@ -8,11 +8,9 @@
     <header>
       <nav class="menu-items">
         <ul>
-          <!--Need to remove underline from hyperlinks, changed coloring to normal, and 
-          add function for highlighting/changing color upon mouse dragging over it-->
           <li><a href="#about">About</a></li>
           <li><a href="#education">Education</a></li>
-          <li><a href="#projects_experience">Projects/Experience</a></li>
+          <li><a href="#projects_experience">Projects and Experience</a></li>
           <li><a href="#interests">Interests</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -80,12 +78,14 @@
         </h3>
       </h2>
     </ul>
-    <h1 id="projects_experience" style="text-align: center">Projects/Experience</h1>
+    <h1 id="projects_experience" style="text-align: center">Projects and Experience</h1>
     <div class="tab">
       <button class="tablinks" id="default_tab" onclick="openTab(event, 'DSTab')">Data Science</button>
       <button class="tablinks" onclick="openTab(event, 'CSTab')">Computer Science</button>
       <button class="tablinks" onclick="openTab(event, 'SSTab')">Social Science</button>
     </div>
+    <!--potential way to make this center aligned: have a main divider that contains 
+    the background for the tabs and just overlay the tabcontent-->
     <div id="DSTab" class="tabcontent">
       <!--put different projects in here-->
       DS Test

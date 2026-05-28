@@ -39,6 +39,31 @@ header {
     cursor: pointer;
 }
 
+.tab {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tablinks {
+    background-color: darkslateblue;
+    color:#cccccc;
+}
+
+.tablinks:hover{
+    background-color: purple;
+    cursor: pointer;
+}
+
+.tabcontent {
+    display: none;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    aspect-ratio: 3 / 2;
+    background-color: #b3b3b3;
+    flex-shrink: 0;
+}
+
 .interests-items ul{
     list-style-type: none;
     padding: 0;
@@ -80,14 +105,4 @@ header {
 
 .vertical-paragraphs {
     display: block;
-}
-
-.tabcontent {
-    display: none;
-    align-items: center;
-    text-align: center;
-    width: 60%;
-    aspect-ratio: 3 / 2;
-    background-color: #b3b3b3;
-    flex-shrink: 0;
 }
