@@ -45,23 +45,27 @@ header {
 }
 
 .tablinks {
-    background-color: darkslateblue;
+    background-color: #301934;
     color:#cccccc;
 }
 
 .tablinks:hover{
-    background-color: purple;
+    background-color: darkslateblue;
     cursor: pointer;
+}
+
+.tablinks.active{
+    background-color: purple;
 }
 
 .tabcontent {
     display: none;
-    align-items: center;
     text-align: center;
-    width: 60%;
-    aspect-ratio: 3 / 2;
+    width: 70%;
+    aspect-ratio: 9 / 5;
     background-color: #b3b3b3;
     flex-shrink: 0;
+    margin: 0 auto;
 }
 
 .interests-items ul{
