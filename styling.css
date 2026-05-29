@@ -3,11 +3,13 @@ body {
     font-family:'Courier New', Courier, monospace;
     color: #cccccc;
     font-size: clamp(24px, 3vw, 48px);
+    margin: 0;
 }
 
 header {
     position: sticky;
     top: 0;
+    margin-top: 0;
     z-index: 1000;
     background-color: #1a1a1a;
     font-family:'Courier New', Courier, monospace;
@@ -15,28 +17,39 @@ header {
     font-size: clamp(16px, 2vw, 36px);
 }
 
+.section {
+    padding-top: 2%;
+}
+
 .menu-items ul{
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    /* padding-left: 10%;
-    padding-right: 10%; */
+    padding: 0;
+    margin: 0;
 }
 
 .menu-items li {
-    margin-right: 5%;
     text-align: center;
+    /* border: 1px solid #3b3b3b;
+    margin-left: -1px; */
 }
 
 .menu-items a{
     text-decoration: none;
     color: #cccccc;
+    /* display: block;
+    padding-left: 10px;
+    padding-right: 10px; */
 }
 
 .menu-items a:hover{
-    background-color: lime;
-    color:#1a1a1a;
+    color: #ffffff;
     cursor: pointer;
+}
+
+.menu-items a.active{
+    background-color: #6b6b6b
 }
 
 .tab {
