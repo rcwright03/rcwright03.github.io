@@ -8,6 +8,7 @@ body {
 
 header {
     position: sticky;
+    /* height: 10%; */
     top: 0;
     margin-top: 0;
     z-index: 1000;
@@ -18,7 +19,7 @@ header {
 }
 
 .section {
-    padding-top: 2%;
+    padding-top: 5%;
 }
 
 .menu-items ul{
@@ -38,6 +39,8 @@ header {
 .menu-items a{
     text-decoration: none;
     color: #cccccc;
+    padding: 0.75rem 1.5rem;
+    display: block;
     /* display: block;
     padding-left: 10px;
     padding-right: 10px; */
@@ -49,7 +52,22 @@ header {
 }
 
 .menu-items a.active{
-    background-color: #6b6b6b
+    background-color: #6b6b6b;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+    /* padding:  */
+}
+
+.project-box {
+    background-color: #474747;
+    color: #cccccc;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
 }
 
 .tab {
@@ -102,6 +120,12 @@ header {
     */
 }
 
+.group-div img{
+    width: 25%;
+    aspect-ratio: 1 / 1;
+    flex-shrink: 0;
+}
+
 .group-div.reverse {
     flex-direction: row-reverse;
 }
@@ -113,12 +137,16 @@ header {
     flex-shrink: 0;
 }
 
-.photo-div {
-    width: 45%;
+/* .photo-div {
+    width: 30%;
     aspect-ratio: 1 / 1;
-    background-color: #b3b3b3;
     flex-shrink: 0;
 }
+
+.photo-div img{
+    width:100%;
+    aspect-ratio: 1 / 1;
+} */
 
 .vertical-paragraphs {
     display: block;

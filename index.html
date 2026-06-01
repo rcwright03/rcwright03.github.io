@@ -16,19 +16,23 @@
         </ul>
       </nav>
     </header>
+    <h1 style="text-align: left; margin-left: 5%; margin-top: 5%;">Hi, I'm Ryan!</h1>
+    <div class="">
+      <p style="font-size: 36px; text-align: left; margin-left: 5%;">Welcome to my portfolio! For the
+        best experience, please view it on desktop.
+      </p>
+    </div>
     <h1 class="section" style="text-align: center;" id="about">About</h1>
     <nav class="about-items">
       <div class="group-div">
-        <div class="photo-div"></div>
+        <img src="../../ryan_square.jpg"; alt="me!">
         <div class="vertical-paragraphs">
-          <p style="font-size: 24px">Hi, I'm Ryan!</p>
-          <p style="font-size: 16px">I'm a recent graduate from WPI with a Master's in Data
+          <p style="font-size: 24px">I'm a recent graduate from WPI with a Master's in Data
             Science and a Bachelor's in Computer Science. My main career interests are in web
-            scraping, agentic AI, and information retrival from network graphs in the cybersecurity,
-            tech, and sports and entertainment industries. <br><br>
-            In my free time, I love listening to and writing music, working on fun little
-            art projects, and playing board games and video games. Check out some of my
-            stuff below! <br><br>
+            scraping, agentic AI, and information retrival from network graphs in the tech and
+            cybersecurity industries. <br><br>
+            In my free time, I love listening to and writing music, working on art projects,
+            and playing board games and video games. Check out some of my stuff below! <br><br>
             Thanks for checking out my portfolio!
           </p>
         </div>
@@ -79,6 +83,22 @@
       </h2>
     </ul>
     <h1 class="section" id="projects_experience" style="text-align: center">Projects and Experience</h1>
+    <div class="project-grid">
+      <div class="project-box">
+        Songbird
+        <!--Title of project, then dates worked on-->
+        <!--Then image of the project-->
+        <!--Then description of the project and some tags for it (python, WPI, software engineering, etc.)-->
+        <!--Maybe give an ability for people to filter by tags-->
+      </div>
+      <div class="project-box">Placeholder</div>
+      <div class="project-box">Placeholder</div>
+      <div class="project-box">Placeholder</div>
+      <div class="project-box">Placeholder</div>
+      <div class="project-box">Placeholder</div>
+      <div class="project-box">Placeholder</div>
+      <div class="project-box">Placeholder</div>
+    </div>
     <div class="tab">
       <button class="tablinks" id="ds_tab_button" onclick="openTab(event, 'DSTab', 'ds_tab_button')">Data Science</button>
       <button class="tablinks" id="cs_tab_button" onclick="openTab(event, 'CSTab', 'cs_tab_button')">Computer Science</button>
@@ -87,16 +107,28 @@
     <!--potential way to make this center aligned: have a main divider that contains 
     the background for the tabs and just overlay the tabcontent-->
     <div id="DSTab" class="tabcontent">
-      <!--put different projects in here-->
-      DS Test
+      <button onclick="changeProject('ds', -1)">&#8592;</button>
+      <img id="ds_image" alt="DS Project Images" style = "width: 80%; height: 80%;">
+      <button onclick="changeProject('ds', 1)">&#8594;</button>
+      <h2 id="ds_title"></h2>
+      <p id="ds_description"></p>
     </div>
     <div id="CSTab" class="tabcontent">
-      <!--put different projects in here-->
-      CS Test
+      <button onclick="changeProject('cs', -1)">&#8592;</button>
+      <img id="cs_image" alt="DS Project Images" style = "width: 80%; height: 80%;">
+      <button onclick="changeProject('cs', 1)">&#8594;</button>
+      <div>
+        
+      </div>
+      <h2 id="cs_title"></h2>
+      <p id="cs_description"></p>
     </div>
     <div id="SSTab" class="tabcontent">
-      <!--put different projects in here-->
-      SS Test
+      <button onclick="changeProject('ss', -1)">&#8592;</button>
+      <img id="ss_image" alt="DS Project Images" style = "width: 80%; height: 80%;">
+      <button onclick="changeProject('ss', 1)">&#8594;</button>
+      <h2 id="ss_title"></h2>
+      <p id="ss_description"></p>
     </div>
     <h1 class="section" id="interests" style="text-align: center">Interests</h1>
     <!--List interests (music, art, video games, etc.) in boxes with text next to them-->
