@@ -88,7 +88,12 @@ header {
     font-size: 20px;
 }
 
-.tab {
+.project-filters {
+    text-align: center;
+
+}
+
+/* .tab {
     display: flex;
     justify-content: space-evenly;
 }
@@ -115,7 +120,7 @@ header {
     background-color: #b3b3b3;
     flex-shrink: 0;
     margin: 0 auto;
-}
+} */
 
 .interests-items ul{
     list-style-type: none;
